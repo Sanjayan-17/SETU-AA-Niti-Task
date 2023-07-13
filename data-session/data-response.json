@@ -1,0 +1,12 @@
+{
+    "id": "1be413e5-bc5e-49c4-b8db-ab0ec9b4a62f",
+    "format": "json",
+    "DataRange": {
+        "to": "2021-09-30T00:00:00.000Z",
+        "from": "2021-04-01T00:00:00.000Z"
+    },
+    "Payload": null,
+    "consentId": "b348d33d-10df-4891-9748-461bb98277f4",
+    "status": "PENDING",
+    "traceId": "1-64b020e0-622722fe5129d26572ee9bd8"
+}

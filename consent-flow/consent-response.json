@@ -1,0 +1,65 @@
+{
+    "id": "b348d33d-10df-4891-9748-461bb98277f4",
+    "url": "https://fiu-uat.setu.co/consents/webview/b348d33d-10df-4891-9748-461bb98277f4",
+    "status": "PENDING",
+    "Detail": {
+        "consentMode": "STORE",
+        "DataLife": {
+            "unit": "MONTH",
+            "value": 1.0
+        },
+        "Customer": {
+            "id": "8946018817@onemoney"
+        },
+        "consentStart": "2023-07-13T16:02:26.967Z",
+        "DataConsumer": {
+            "id": "setu-fiu-id"
+        },
+        "consentExpiry": "2023-07-23T05:44:53.822Z",
+        "consentTypes": [
+            "TRANSACTIONS",
+            "PROFILE",
+            "SUMMARY"
+        ],
+        "fiTypes": [
+            "DEPOSIT"
+        ],
+        "FIDataRange": {
+            "to": "2021-10-01T00:00:00.000Z",
+            "from": "2021-04-01T00:00:00.000Z"
+        },
+        "DataFilter": [
+            {
+                "value": "5000",
+                "type": "TRANSACTIONAMOUNT",
+                "operator": ">="
+            }
+        ],
+        "Frequency": {
+            "unit": "MONTH",
+            "value": 30.0
+        },
+        "fetchType": "PERIODIC",
+        "Purpose": {
+            "refUri": "https://api.rebit.org.in/aa/purpose/101.xml",
+            "Category": {
+                "type": "string"
+            },
+            "code": "101",
+            "text": "Loan underwriting"
+        }
+    },
+    "redirectUrl": "https://setu.co",
+    "PAN": "",
+    "context": [
+        {
+            "value": "CURRENT",
+            "key": "accounttype"
+        }
+    ],
+    "Usage": {
+        "lastUsed": null,
+        "count": "0"
+    },
+    "traceId": "1-64b02017-559f331543668df0678590a6"
+}
